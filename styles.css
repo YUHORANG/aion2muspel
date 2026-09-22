@@ -1,0 +1,20 @@
+*{box-sizing:border-box} body{margin:0;background:#0f172a;color:#f8fafc;font-family:"Malgun Gothic",system-ui,sans-serif}
+button,.button,select,input,textarea{font:inherit}.top{height:58px;display:flex;align-items:center;gap:10px;padding:10px 16px;background:#1e293b;position:sticky;top:0;z-index:20}
+.brand{font-size:20px;font-weight:700;margin-right:10px}.brand span{opacity:.5}button,.button{border:0;border-radius:3px;background:#0ea5e9;color:white;font-weight:700;padding:8px 14px;cursor:pointer}.button.file input{display:none}.hint{margin-left:12px;color:#bfdbfe}
+nav{height:48px;display:flex;gap:8px;align-items:center;padding:6px 14px;background:#020617;position:sticky;top:58px;z-index:19}
+nav button{min-width:82px;background:#334155}nav button:first-child{min-width:145px}nav button.active.roster{background:#7c3aed}nav button.active.round{background:#0ea5e9}
+main{padding:12px;min-width:1100px}.section-title{font-size:21px;font-weight:700;margin:10px 0 12px}
+.roster-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:1280px}.card{background:#1e293b;padding:10px;border-radius:4px}
+.player-name{display:block;width:58%;margin:-3px auto 8px;text-align:center;font-weight:700;font-size:16px}
+table{border-collapse:collapse;width:100%;table-layout:fixed}th{background:#334155;color:#fff}td,th{border:1px solid #0f172a;padding:4px;height:30px;text-align:center}
+td{background:white;color:#111827}td.selected-cell,.formation select.selected-cell{background:#bfdbfe!important;color:#111827!important}
+input,select{width:100%;height:28px;background:white;color:#111827;border:1px solid #cbd5e1;padding:2px 5px}select:disabled{opacity:1;color:#64748b;background:#f8fafc}
+.mercs{max-width:1280px;margin-top:18px;background:#1e293b;padding:10px}.merc-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.round-toolbar{display:flex;gap:10px;margin:8px 0 14px}.mechanic-btn:disabled{background:#64748b;color:white}.formation{max-width:1370px;overflow-x:auto}.party-box{margin-bottom:14px}.party-title{font-size:17px;font-weight:700;margin:6px 0}
+.formation table{min-width:1250px}.formation th:nth-child(1){width:15%}.formation th:nth-child(2),.formation th:nth-child(5){width:11%}.formation th:nth-child(3),.formation th:nth-child(6){width:26%}.formation th:nth-child(4){width:8%}
+.forced{background:#dc2626!important;color:#fff!important}.mechanics{max-width:1500px}.backlink{font-size:20px;margin-bottom:14px}.dribble-wrap{display:grid;grid-template-columns:1fr 1fr;gap:12px}.dribble{padding:10px;color:#111827}.p1{background:#f87171}.p2{background:#4ade80}.dribble table td,.dribble table th{background:transparent;color:#111827;border-color:rgba(0,0,0,.2)}
+.signal-area{position:relative;width:1400px;height:720px;background:#030810;border:1px solid #334155;margin-top:12px;overflow:visible}.circle{position:absolute;left:420px;top:80px;width:560px;height:560px;border-radius:50%;background:#12373e;border:2px solid #fbbf24}
+.signal{position:absolute;transform:translate(-50%,-50%);width:max-content;min-width:240px}.signal select{min-width:240px;width:max-content;max-width:none}
+.role-box{margin-top:16px;background:#1e293b;padding:12px;max-width:1280px}.role-grid{display:grid;grid-template-columns:repeat(6,minmax(180px,1fr));gap:8px}.role-grid label{font-weight:700}.role-grid select{min-width:180px}
+#copyDialog{width:min(760px,90vw);height:650px;background:#1e293b;color:white;border:0}#copyText{width:100%;height:520px;background:white;color:#111827;resize:none}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:8px}
+@media(max-width:1100px){.roster-grid,.merc-grid,.dribble-wrap{grid-template-columns:1fr}main{min-width:900px}}
